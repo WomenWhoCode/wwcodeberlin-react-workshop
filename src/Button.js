@@ -1,8 +1,7 @@
 import React from 'react';
 
 const Button = (props) => {
-  const { color = "grey", onClick, children } = props
-  // TODO: provide a default value for onClick as well
+  const { color = "grey", onClick = () => {}, children } = props
   return (
     <button
       style={{ backgroundColor: color }}

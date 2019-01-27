@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 import Button from './Button.js';
 
+const WHITE = 'white'
 class App extends Component {
   state = {
-    selectedColor: 'white',
-    // TODO: we use "white" a lot now, so it would be better to extract it to a constant
+    selectedColor: WHITE,
   }
 
   setColor = (color) => {
@@ -20,9 +20,18 @@ class App extends Component {
         </h2>
         <div>
           <Button color={'green'} onClick={this.setColor}>Green</Button>
+          <Button color={'red'} onClick={this.setColor}>Red</Button>
+          <Button color={'blue'} onClick={this.setColor}>Blue</Button>
         </div>
-        { this.state.selectedColor !== 'white' &&
-          <Button onClick={() => this.setColor('white')}>Reset Color</Button>
+        { this.state.selectedColor !== WHITE &&
+          <Button onClick={() => this.setColor(WHITE)}>
+            {/*
+            TODO: implement a new component ICON that just renders an Emoji
+            Hint: check the console after you added the emoji
+            <Icon />
+            */}
+            Reset Color
+          </Button>
         }
       </div>
     );

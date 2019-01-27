@@ -10,8 +10,8 @@ class App extends Component {
         Buttons, Buttons!
       </h2>
       <div>
-        <Button color={"green"}></Button>
-        {/* TODO: Add more buttons with different colors! */}
+        <Button color={'green'} onClick={() => console.log('I am reacting!')}></Button>
+        {/* TODO: Create your button with your own handler! See how they react */}
       </div>
     </div> 
     );

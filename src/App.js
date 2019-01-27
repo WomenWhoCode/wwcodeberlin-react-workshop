@@ -10,7 +10,8 @@ class App extends Component {
         Buttons, Buttons!
       </h2>
       <div>
-        <Button></Button>
+        <Button color={"green"}></Button>
+        {/* TODO: Add more buttons with different colors! */}
       </div>
     </div> 
     );

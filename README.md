@@ -1,4 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## WomenWhoCode React Workshop
+
+The steps to create this simple example can be followed in this [Workshop Overview](STEPS.md).
+
+### What is React
+
+- React is a component-based library.
+- every part of your web application can be mapped to a component.
+- this is also good for developers as it allows better code splitting -> good separation of conserns and better tests
+- the change in one component doen't require the browser to render the whole application -> big advantage compared to other previous libraries / frameworks.
+- beneficial when you are building web application where data changes very frequently
+- this saves the browser the trouble of reloading the whole application when some change happens.
+- it makes it possible to buold more complex user interactions while keeping a good browser performance.
+
+### Why learn React
+According to [The State of JavaScript 2018: Front-end Frameworks - React](https://2018.stateofjs.com/front-end-frameworks/react/) React was the most popular FE framework in 2018 in the community, being its most appreciated aspects:
+good choice of patterns
+good documentation
+Rich package ecosystem
+It’s a framework which is in high demand in the market
+Component based approach makes code splitting and reuse much easier than by developing for the web without any framework
+
+---
+
+## Before you start
+* Install [create-react-app](https://github.com/facebook/create-react-app)
+* Make sure that `node` and `npm` are installed. Also, make sure your [node version](https://nodejs.org/en/download/) is `6.0.0` or higher.
+* Join our slack (we can use to share links and commands more easily)
+* Install [React Dev Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) in Chrome
+
 
 ## Available Scripts
 
@@ -12,57 +41,39 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Further Learning
 
-### `npm run build`
+* Thinking in React: https://reactjs.org/docs/thinking-in-react.html
+* Virtual DOM: https://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/
+* React Lifecycle: https://reactjs.org/docs/react-component.html
+* CSS
+  * Good ways to handle CSS: https://css-tricks.com/bridging-the-gap-between-css-and-javascript-css-in-js/
+  * Overview of CSS in JS libraries: https://github.com/MicheleBertoli/css-in-js
+* ES6 arrow functions, syntax and lexical scoping: https://toddmotto.com/es6-arrow-functions-syntaxes-and-lexical-scoping/
+* PropTypes and Typing: https://reactjs.org/docs/typechecking-with-proptypes.html
+* State management libraries (start with these when you are comfortable using React’s state)
+ * Redux:
+   * Why and which? https://www.robinwieruch.de/redux-mobx-confusion/
+   * Redux overview: https://github.com/reduxjs/redux
+   * Redux tutorial: https://redux.js.org/basics/basic-tutorial
+   * Redux videos: https://learnreduxwithdanabramov.com
+   * Very accessible article about Redux: https://www.valentinog.com/blog/redux/
+ * MobX:
+   * Github page: https://github.com/mobxjs/mobx
+   * Official website: https://mobx.js.org/
+   * Tutorial: https://mobx.js.org/getting-started.html
+* Higher Order Components:
+  * https://reactjs.org/docs/higher-order-components.html
+  * https://www.karolisram.com/higher-order-components-react-pattern/
+* Testing: https://reactjs.org/community/testing.html
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## More Tipps
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Find two more ideas for React projects [here](PROJECTS.md).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To make the setup process easy, you can use `create-react-app`.
+This will provide a basic setup with webpack etc included.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
